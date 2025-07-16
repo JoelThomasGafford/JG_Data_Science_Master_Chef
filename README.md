@@ -9,31 +9,31 @@ https://www.youtube.com/watch?v=wKWZW08O-EY
 
 In the "Master Chef" show, contestants compete in multiple rounds and are graded by the quality of their dishes. 
 
-![Graph 1](output/Master_Chef_00_Elim_A_001.png)
+![Graph 1](output/Master_Chef_00_Elim_A_001.jpg)
 
 I used Rvest to bring the Wikipedia table into a dataframe in RStudio:
 
-![Graph 1](output/Master_Chef_01_Elim_A_001.png)
+![Graph 1](output/Master_Chef_01_Elim_A_001.jpg)
 
 I converted these grades into numbers ranging from -2 for being eliminated, up to 3 for creating the best dish in that round. 
 
-![Graph 1](output/Master_Chef_03_Number_A_001.png)
+![Graph 1](output/Master_Chef_03_Number_A_001.jpg)
 
 I then created a new table in RStudio to calculate the cumulative sums for each contestant over time. 
 
-![Graph 1](output/Master_Chef_04_Cumsum_A_001.png)
+![Graph 1](output/Master_Chef_04_Cumsum_A_001.jpg)
 
 This gives us data that we can convert into a line graph.
 
-![Graph 1](output/Master_Chef_Cont_S01_A_001.png)
+![Graph 1](output/Master_Chef_Cont_S01_A_001.jpg)
 
 Now we can see that in some seasons, sometimes people won despite not being as high in the graph as others.
 
-![Graph 1](output/Master_Chef_Cont_S01-S13_A_001.png)
+![Graph 1](output/Master_Chef_Cont_S01-S13_A_001.jpg)
 
 Here is a point graph showing all contestants from seasons 1-13, colored by their final standing.
 
-![Graph 1](output/Master_Chef_Cont_FInal_A_001.png)
+![Graph 1](output/Master_Chef_Cont_FInal_A_001.jpg)
 
 
 
